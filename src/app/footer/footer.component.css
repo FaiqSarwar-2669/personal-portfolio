@@ -1,0 +1,68 @@
+.icons{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+
+ul{
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7px;
+    display: block;
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(49, 49, 97);
+}
+
+.github{
+    background-image: url('../../assets/Media/github.png');
+    background-size: 100%;
+}
+.linkedin{
+    background-image: url('../../assets/Media/linkedin.png');
+    background-size: 100%;
+}
+.upwork{
+    background-image: url('../../assets/Media/upwork.png');
+    background-size: 100%;
+}
+.fiverr{
+    background-image: url('../../assets/Media/fiver.png');
+    background-size: 100%;
+}
+.freelancer{
+    background-image: url('../../assets/Media/freelancer.jpeg');
+    background-size: 100%;
+}
+
+.custom-image{
+    width: 150px;
+}
+.footer-part-one{
+    display: flex;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 480px) and (max-width: 820px){
+    .footer-part-one{
+        gap: 150px;
+        margin-bottom: 25px;
+    }
+}
